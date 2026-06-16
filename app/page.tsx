@@ -1,8 +1,19 @@
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Services from './components/sections/Services';
+import Subsidy from './components/sections/Subsidy';
+import Philosophy from './components/sections/Philosophy';
+import Contact from './components/sections/Contact';
+
 export default function Home() {
   return (
-    <div>
-      <h1>株式会社ティアレス</h1>
-      <p>テストページ</p>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <Subsidy />
+      <Philosophy />
+      <Contact />
+    </>
   );
 }
